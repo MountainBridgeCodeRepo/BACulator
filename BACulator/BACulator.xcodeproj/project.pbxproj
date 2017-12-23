@@ -1,0 +1,842 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1FBCFDB1FEE248900138E82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FBCFDA1FEE248900138E82 /* AppDelegate.swift */; };
+		A1FBCFDD1FEE248900138E82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FBCFDC1FEE248900138E82 /* ViewController.swift */; };
+		A1FBCFE01FEE248900138E82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1FBCFDE1FEE248900138E82 /* Main.storyboard */; };
+		A1FBCFE21FEE248900138E82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1FBCFE11FEE248900138E82 /* Assets.xcassets */; };
+		A1FBCFE51FEE248900138E82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1FBCFE31FEE248900138E82 /* LaunchScreen.storyboard */; };
+		A1FBCFF01FEE248A00138E82 /* BACulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FBCFEF1FEE248A00138E82 /* BACulatorTests.swift */; };
+		A1FBCFFB1FEE248A00138E82 /* BACulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FBCFFA1FEE248A00138E82 /* BACulatorUITests.swift */; };
+		A1FBD0001FEE248A00138E82 /* BACulator WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A1FBCFFF1FEE248A00138E82 /* BACulator WatchKit App.app */; };
+		A1FBD0061FEE248A00138E82 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1FBD0041FEE248A00138E82 /* Interface.storyboard */; };
+		A1FBD0081FEE248A00138E82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1FBD0071FEE248A00138E82 /* Assets.xcassets */; };
+		A1FBD00F1FEE248A00138E82 /* BACulator WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A1FBD00E1FEE248A00138E82 /* BACulator WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A1FBD0141FEE248A00138E82 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FBD0131FEE248A00138E82 /* InterfaceController.swift */; };
+		A1FBD0161FEE248A00138E82 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FBD0151FEE248A00138E82 /* ExtensionDelegate.swift */; };
+		A1FBD0181FEE248A00138E82 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FBD0171FEE248A00138E82 /* NotificationController.swift */; };
+		A1FBD01A1FEE248A00138E82 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FBD0191FEE248A00138E82 /* ComplicationController.swift */; };
+		A1FBD01C1FEE248A00138E82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1FBD01B1FEE248A00138E82 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1FBCFEC1FEE248A00138E82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1FBCFCF1FEE248900138E82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1FBCFD61FEE248900138E82;
+			remoteInfo = BACulator;
+		};
+		A1FBCFF71FEE248A00138E82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1FBCFCF1FEE248900138E82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1FBCFD61FEE248900138E82;
+			remoteInfo = BACulator;
+		};
+		A1FBD0011FEE248A00138E82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1FBCFCF1FEE248900138E82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1FBCFFE1FEE248A00138E82;
+			remoteInfo = "BACulator WatchKit App";
+		};
+		A1FBD0101FEE248A00138E82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1FBCFCF1FEE248900138E82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1FBD00D1FEE248A00138E82;
+			remoteInfo = "BACulator WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A1FBD0241FEE248A00138E82 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A1FBD00F1FEE248A00138E82 /* BACulator WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1FBD0281FEE248A00138E82 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A1FBD0001FEE248A00138E82 /* BACulator WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A1FBCFD71FEE248900138E82 /* BACulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BACulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1FBCFDA1FEE248900138E82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1FBCFDC1FEE248900138E82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1FBCFDF1FEE248900138E82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1FBCFE11FEE248900138E82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1FBCFE41FEE248900138E82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1FBCFE61FEE248900138E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1FBCFEB1FEE248A00138E82 /* BACulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BACulatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1FBCFEF1FEE248A00138E82 /* BACulatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BACulatorTests.swift; sourceTree = "<group>"; };
+		A1FBCFF11FEE248A00138E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1FBCFF61FEE248A00138E82 /* BACulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BACulatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1FBCFFA1FEE248A00138E82 /* BACulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BACulatorUITests.swift; sourceTree = "<group>"; };
+		A1FBCFFC1FEE248A00138E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1FBCFFF1FEE248A00138E82 /* BACulator WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BACulator WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1FBD0051FEE248A00138E82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A1FBD0071FEE248A00138E82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1FBD0091FEE248A00138E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1FBD00E1FEE248A00138E82 /* BACulator WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BACulator WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1FBD0131FEE248A00138E82 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		A1FBD0151FEE248A00138E82 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		A1FBD0171FEE248A00138E82 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		A1FBD0191FEE248A00138E82 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		A1FBD01B1FEE248A00138E82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1FBD01D1FEE248A00138E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1FBD01E1FEE248A00138E82 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1FBCFD41FEE248900138E82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1FBCFE81FEE248A00138E82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1FBCFF31FEE248A00138E82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1FBD00B1FEE248A00138E82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1FBCFCE1FEE248900138E82 = {
+			isa = PBXGroup;
+			children = (
+				A1FBCFD91FEE248900138E82 /* BACulator */,
+				A1FBCFEE1FEE248A00138E82 /* BACulatorTests */,
+				A1FBCFF91FEE248A00138E82 /* BACulatorUITests */,
+				A1FBD0031FEE248A00138E82 /* BACulator WatchKit App */,
+				A1FBD0121FEE248A00138E82 /* BACulator WatchKit Extension */,
+				A1FBCFD81FEE248900138E82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1FBCFD81FEE248900138E82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1FBCFD71FEE248900138E82 /* BACulator.app */,
+				A1FBCFEB1FEE248A00138E82 /* BACulatorTests.xctest */,
+				A1FBCFF61FEE248A00138E82 /* BACulatorUITests.xctest */,
+				A1FBCFFF1FEE248A00138E82 /* BACulator WatchKit App.app */,
+				A1FBD00E1FEE248A00138E82 /* BACulator WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1FBCFD91FEE248900138E82 /* BACulator */ = {
+			isa = PBXGroup;
+			children = (
+				A1FBCFDA1FEE248900138E82 /* AppDelegate.swift */,
+				A1FBCFDC1FEE248900138E82 /* ViewController.swift */,
+				A1FBCFDE1FEE248900138E82 /* Main.storyboard */,
+				A1FBCFE11FEE248900138E82 /* Assets.xcassets */,
+				A1FBCFE31FEE248900138E82 /* LaunchScreen.storyboard */,
+				A1FBCFE61FEE248900138E82 /* Info.plist */,
+			);
+			path = BACulator;
+			sourceTree = "<group>";
+		};
+		A1FBCFEE1FEE248A00138E82 /* BACulatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1FBCFEF1FEE248A00138E82 /* BACulatorTests.swift */,
+				A1FBCFF11FEE248A00138E82 /* Info.plist */,
+			);
+			path = BACulatorTests;
+			sourceTree = "<group>";
+		};
+		A1FBCFF91FEE248A00138E82 /* BACulatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1FBCFFA1FEE248A00138E82 /* BACulatorUITests.swift */,
+				A1FBCFFC1FEE248A00138E82 /* Info.plist */,
+			);
+			path = BACulatorUITests;
+			sourceTree = "<group>";
+		};
+		A1FBD0031FEE248A00138E82 /* BACulator WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A1FBD0041FEE248A00138E82 /* Interface.storyboard */,
+				A1FBD0071FEE248A00138E82 /* Assets.xcassets */,
+				A1FBD0091FEE248A00138E82 /* Info.plist */,
+			);
+			path = "BACulator WatchKit App";
+			sourceTree = "<group>";
+		};
+		A1FBD0121FEE248A00138E82 /* BACulator WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A1FBD0131FEE248A00138E82 /* InterfaceController.swift */,
+				A1FBD0151FEE248A00138E82 /* ExtensionDelegate.swift */,
+				A1FBD0171FEE248A00138E82 /* NotificationController.swift */,
+				A1FBD0191FEE248A00138E82 /* ComplicationController.swift */,
+				A1FBD01B1FEE248A00138E82 /* Assets.xcassets */,
+				A1FBD01D1FEE248A00138E82 /* Info.plist */,
+				A1FBD01E1FEE248A00138E82 /* PushNotificationPayload.apns */,
+			);
+			path = "BACulator WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1FBCFD61FEE248900138E82 /* BACulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1FBD0291FEE248A00138E82 /* Build configuration list for PBXNativeTarget "BACulator" */;
+			buildPhases = (
+				A1FBCFD31FEE248900138E82 /* Sources */,
+				A1FBCFD41FEE248900138E82 /* Frameworks */,
+				A1FBCFD51FEE248900138E82 /* Resources */,
+				A1FBD0281FEE248A00138E82 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1FBD0021FEE248A00138E82 /* PBXTargetDependency */,
+			);
+			name = BACulator;
+			productName = BACulator;
+			productReference = A1FBCFD71FEE248900138E82 /* BACulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1FBCFEA1FEE248A00138E82 /* BACulatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1FBD02C1FEE248A00138E82 /* Build configuration list for PBXNativeTarget "BACulatorTests" */;
+			buildPhases = (
+				A1FBCFE71FEE248A00138E82 /* Sources */,
+				A1FBCFE81FEE248A00138E82 /* Frameworks */,
+				A1FBCFE91FEE248A00138E82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1FBCFED1FEE248A00138E82 /* PBXTargetDependency */,
+			);
+			name = BACulatorTests;
+			productName = BACulatorTests;
+			productReference = A1FBCFEB1FEE248A00138E82 /* BACulatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1FBCFF51FEE248A00138E82 /* BACulatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1FBD02F1FEE248A00138E82 /* Build configuration list for PBXNativeTarget "BACulatorUITests" */;
+			buildPhases = (
+				A1FBCFF21FEE248A00138E82 /* Sources */,
+				A1FBCFF31FEE248A00138E82 /* Frameworks */,
+				A1FBCFF41FEE248A00138E82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1FBCFF81FEE248A00138E82 /* PBXTargetDependency */,
+			);
+			name = BACulatorUITests;
+			productName = BACulatorUITests;
+			productReference = A1FBCFF61FEE248A00138E82 /* BACulatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A1FBCFFE1FEE248A00138E82 /* BACulator WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1FBD0251FEE248A00138E82 /* Build configuration list for PBXNativeTarget "BACulator WatchKit App" */;
+			buildPhases = (
+				A1FBCFFD1FEE248A00138E82 /* Resources */,
+				A1FBD0241FEE248A00138E82 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1FBD0111FEE248A00138E82 /* PBXTargetDependency */,
+			);
+			name = "BACulator WatchKit App";
+			productName = "BACulator WatchKit App";
+			productReference = A1FBCFFF1FEE248A00138E82 /* BACulator WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A1FBD00D1FEE248A00138E82 /* BACulator WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1FBD0211FEE248A00138E82 /* Build configuration list for PBXNativeTarget "BACulator WatchKit Extension" */;
+			buildPhases = (
+				A1FBD00A1FEE248A00138E82 /* Sources */,
+				A1FBD00B1FEE248A00138E82 /* Frameworks */,
+				A1FBD00C1FEE248A00138E82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BACulator WatchKit Extension";
+			productName = "BACulator WatchKit Extension";
+			productReference = A1FBD00E1FEE248A00138E82 /* BACulator WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1FBCFCF1FEE248900138E82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Mountain Bridge Code";
+				TargetAttributes = {
+					A1FBCFD61FEE248900138E82 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A1FBCFEA1FEE248A00138E82 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A1FBCFD61FEE248900138E82;
+					};
+					A1FBCFF51FEE248A00138E82 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A1FBCFD61FEE248900138E82;
+					};
+					A1FBCFFE1FEE248A00138E82 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A1FBD00D1FEE248A00138E82 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A1FBCFD21FEE248900138E82 /* Build configuration list for PBXProject "BACulator" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1FBCFCE1FEE248900138E82;
+			productRefGroup = A1FBCFD81FEE248900138E82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1FBCFD61FEE248900138E82 /* BACulator */,
+				A1FBCFEA1FEE248A00138E82 /* BACulatorTests */,
+				A1FBCFF51FEE248A00138E82 /* BACulatorUITests */,
+				A1FBCFFE1FEE248A00138E82 /* BACulator WatchKit App */,
+				A1FBD00D1FEE248A00138E82 /* BACulator WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1FBCFD51FEE248900138E82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1FBCFE51FEE248900138E82 /* LaunchScreen.storyboard in Resources */,
+				A1FBCFE21FEE248900138E82 /* Assets.xcassets in Resources */,
+				A1FBCFE01FEE248900138E82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1FBCFE91FEE248A00138E82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1FBCFF41FEE248A00138E82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1FBCFFD1FEE248A00138E82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1FBD0081FEE248A00138E82 /* Assets.xcassets in Resources */,
+				A1FBD0061FEE248A00138E82 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1FBD00C1FEE248A00138E82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1FBD01C1FEE248A00138E82 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1FBCFD31FEE248900138E82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1FBCFDD1FEE248900138E82 /* ViewController.swift in Sources */,
+				A1FBCFDB1FEE248900138E82 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1FBCFE71FEE248A00138E82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1FBCFF01FEE248A00138E82 /* BACulatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1FBCFF21FEE248A00138E82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1FBCFFB1FEE248A00138E82 /* BACulatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1FBD00A1FEE248A00138E82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1FBD0181FEE248A00138E82 /* NotificationController.swift in Sources */,
+				A1FBD01A1FEE248A00138E82 /* ComplicationController.swift in Sources */,
+				A1FBD0161FEE248A00138E82 /* ExtensionDelegate.swift in Sources */,
+				A1FBD0141FEE248A00138E82 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1FBCFED1FEE248A00138E82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1FBCFD61FEE248900138E82 /* BACulator */;
+			targetProxy = A1FBCFEC1FEE248A00138E82 /* PBXContainerItemProxy */;
+		};
+		A1FBCFF81FEE248A00138E82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1FBCFD61FEE248900138E82 /* BACulator */;
+			targetProxy = A1FBCFF71FEE248A00138E82 /* PBXContainerItemProxy */;
+		};
+		A1FBD0021FEE248A00138E82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1FBCFFE1FEE248A00138E82 /* BACulator WatchKit App */;
+			targetProxy = A1FBD0011FEE248A00138E82 /* PBXContainerItemProxy */;
+		};
+		A1FBD0111FEE248A00138E82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1FBD00D1FEE248A00138E82 /* BACulator WatchKit Extension */;
+			targetProxy = A1FBD0101FEE248A00138E82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1FBCFDE1FEE248900138E82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1FBCFDF1FEE248900138E82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1FBCFE31FEE248900138E82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1FBCFE41FEE248900138E82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A1FBD0041FEE248A00138E82 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1FBD0051FEE248A00138E82 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1FBD01F1FEE248A00138E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1FBD0201FEE248A00138E82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1FBD0221FEE248A00138E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GKLD34DQMU;
+				INFOPLIST_FILE = "BACulator WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecauble.BACulator.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Debug;
+		};
+		A1FBD0231FEE248A00138E82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GKLD34DQMU;
+				INFOPLIST_FILE = "BACulator WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecauble.BACulator.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Release;
+		};
+		A1FBD0261FEE248A00138E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GKLD34DQMU;
+				IBSC_MODULE = BACulator_WatchKit_Extension;
+				INFOPLIST_FILE = "BACulator WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecauble.BACulator.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Debug;
+		};
+		A1FBD0271FEE248A00138E82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GKLD34DQMU;
+				IBSC_MODULE = BACulator_WatchKit_Extension;
+				INFOPLIST_FILE = "BACulator WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecauble.BACulator.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Release;
+		};
+		A1FBD02A1FEE248A00138E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GKLD34DQMU;
+				INFOPLIST_FILE = BACulator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mountainbridgecode.BACulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1FBD02B1FEE248A00138E82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GKLD34DQMU;
+				INFOPLIST_FILE = BACulator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mountainbridgecode.BACulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1FBD02D1FEE248A00138E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GKLD34DQMU;
+				INFOPLIST_FILE = BACulatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecauble.BACulatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BACulator.app/BACulator";
+			};
+			name = Debug;
+		};
+		A1FBD02E1FEE248A00138E82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GKLD34DQMU;
+				INFOPLIST_FILE = BACulatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecauble.BACulatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BACulator.app/BACulator";
+			};
+			name = Release;
+		};
+		A1FBD0301FEE248A00138E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GKLD34DQMU;
+				INFOPLIST_FILE = BACulatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecauble.BACulatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BACulator;
+			};
+			name = Debug;
+		};
+		A1FBD0311FEE248A00138E82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GKLD34DQMU;
+				INFOPLIST_FILE = BACulatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecauble.BACulatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BACulator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1FBCFD21FEE248900138E82 /* Build configuration list for PBXProject "BACulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1FBD01F1FEE248A00138E82 /* Debug */,
+				A1FBD0201FEE248A00138E82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1FBD0211FEE248A00138E82 /* Build configuration list for PBXNativeTarget "BACulator WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1FBD0221FEE248A00138E82 /* Debug */,
+				A1FBD0231FEE248A00138E82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1FBD0251FEE248A00138E82 /* Build configuration list for PBXNativeTarget "BACulator WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1FBD0261FEE248A00138E82 /* Debug */,
+				A1FBD0271FEE248A00138E82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1FBD0291FEE248A00138E82 /* Build configuration list for PBXNativeTarget "BACulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1FBD02A1FEE248A00138E82 /* Debug */,
+				A1FBD02B1FEE248A00138E82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1FBD02C1FEE248A00138E82 /* Build configuration list for PBXNativeTarget "BACulatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1FBD02D1FEE248A00138E82 /* Debug */,
+				A1FBD02E1FEE248A00138E82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1FBD02F1FEE248A00138E82 /* Build configuration list for PBXNativeTarget "BACulatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1FBD0301FEE248A00138E82 /* Debug */,
+				A1FBD0311FEE248A00138E82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1FBCFCF1FEE248900138E82 /* Project object */;
+}
