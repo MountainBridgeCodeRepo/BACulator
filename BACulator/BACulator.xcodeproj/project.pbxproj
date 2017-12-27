@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A1FBCFDB1FEE248900138E82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FBCFDA1FEE248900138E82 /* AppDelegate.swift */; };
-		A1FBCFDD1FEE248900138E82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FBCFDC1FEE248900138E82 /* ViewController.swift */; };
+		A1FBCFDD1FEE248900138E82 /* ViewControllerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FBCFDC1FEE248900138E82 /* ViewControllerSettings.swift */; };
 		A1FBCFE01FEE248900138E82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1FBCFDE1FEE248900138E82 /* Main.storyboard */; };
 		A1FBCFE21FEE248900138E82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1FBCFE11FEE248900138E82 /* Assets.xcassets */; };
 		A1FBCFE51FEE248900138E82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1FBCFE31FEE248900138E82 /* LaunchScreen.storyboard */; };
@@ -84,7 +84,7 @@
 /* Begin PBXFileReference section */
 		A1FBCFD71FEE248900138E82 /* BACulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BACulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1FBCFDA1FEE248900138E82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A1FBCFDC1FEE248900138E82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1FBCFDC1FEE248900138E82 /* ViewControllerSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerSettings.swift; sourceTree = "<group>"; };
 		A1FBCFDF1FEE248900138E82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1FBCFE11FEE248900138E82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1FBCFE41FEE248900138E82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -169,7 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				A1FBCFDA1FEE248900138E82 /* AppDelegate.swift */,
-				A1FBCFDC1FEE248900138E82 /* ViewController.swift */,
+				A1FBCFDC1FEE248900138E82 /* ViewControllerSettings.swift */,
 				A1FBCFDE1FEE248900138E82 /* Main.storyboard */,
 				A1FBCFE11FEE248900138E82 /* Assets.xcassets */,
 				A1FBCFE31FEE248900138E82 /* LaunchScreen.storyboard */,
@@ -417,7 +417,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1FBCFDD1FEE248900138E82 /* ViewController.swift in Sources */,
+				A1FBCFDD1FEE248900138E82 /* ViewControllerSettings.swift in Sources */,
 				A1FBCFDB1FEE248900138E82 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -617,7 +617,7 @@
 				DEVELOPMENT_TEAM = GKLD34DQMU;
 				INFOPLIST_FILE = "BACulator WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ecauble.BACulator.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mountainbridgecode.BACulator.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -635,7 +635,7 @@
 				DEVELOPMENT_TEAM = GKLD34DQMU;
 				INFOPLIST_FILE = "BACulator WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ecauble.BACulator.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mountainbridgecode.BACulator.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -654,7 +654,7 @@
 				DEVELOPMENT_TEAM = GKLD34DQMU;
 				IBSC_MODULE = BACulator_WatchKit_Extension;
 				INFOPLIST_FILE = "BACulator WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ecauble.BACulator.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mountainbridgecode.BACulator.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -673,7 +673,7 @@
 				DEVELOPMENT_TEAM = GKLD34DQMU;
 				IBSC_MODULE = BACulator_WatchKit_Extension;
 				INFOPLIST_FILE = "BACulator WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ecauble.BACulator.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mountainbridgecode.BACulator.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
