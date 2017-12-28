@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		564DD6D61FF493C5001F1B72 /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564DD6D51FF493C5001F1B72 /* SettingsModel.swift */; };
+		564DD6D81FF49D90001F1B72 /* DrinkSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564DD6D71FF49D90001F1B72 /* DrinkSelectionViewController.swift */; };
 		A1FBCFDB1FEE248900138E82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FBCFDA1FEE248900138E82 /* AppDelegate.swift */; };
 		A1FBCFDD1FEE248900138E82 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FBCFDC1FEE248900138E82 /* SettingsViewController.swift */; };
 		A1FBCFE01FEE248900138E82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1FBCFDE1FEE248900138E82 /* Main.storyboard */; };
@@ -82,6 +84,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		564DD6D51FF493C5001F1B72 /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
+		564DD6D71FF49D90001F1B72 /* DrinkSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkSelectionViewController.swift; sourceTree = "<group>"; };
 		A1FBCFD71FEE248900138E82 /* BACulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BACulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1FBCFDA1FEE248900138E82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1FBCFDC1FEE248900138E82 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -171,9 +175,11 @@
 				A1FBCFDA1FEE248900138E82 /* AppDelegate.swift */,
 				A1FBCFDC1FEE248900138E82 /* SettingsViewController.swift */,
 				A1FBCFDE1FEE248900138E82 /* Main.storyboard */,
+				564DD6D71FF49D90001F1B72 /* DrinkSelectionViewController.swift */,
 				A1FBCFE11FEE248900138E82 /* Assets.xcassets */,
 				A1FBCFE31FEE248900138E82 /* LaunchScreen.storyboard */,
 				A1FBCFE61FEE248900138E82 /* Info.plist */,
+				564DD6D51FF493C5001F1B72 /* SettingsModel.swift */,
 			);
 			path = BACulator;
 			sourceTree = "<group>";
@@ -419,6 +425,8 @@
 			files = (
 				A1FBCFDD1FEE248900138E82 /* SettingsViewController.swift in Sources */,
 				A1FBCFDB1FEE248900138E82 /* AppDelegate.swift in Sources */,
+				564DD6D81FF49D90001F1B72 /* DrinkSelectionViewController.swift in Sources */,
+				564DD6D61FF493C5001F1B72 /* SettingsModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
