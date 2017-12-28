@@ -9,12 +9,12 @@
 import UIKit
 
 class SettingsViewController: UIViewController {
-
+    //outlets
     @IBOutlet weak var genderTextField: UITextField!
     @IBOutlet weak var weightTextField: UITextField!
     
     @IBOutlet weak var label1: UILabel!
-    
+    //instance vars 
     let defaults = UserDefaults.standard
     //let settingsModel = SettingsModel(Int: gender, Int: weight)
     
