@@ -172,13 +172,13 @@
 		A1FBCFD91FEE248900138E82 /* BACulator */ = {
 			isa = PBXGroup;
 			children = (
+				A1FBCFDE1FEE248900138E82 /* Main.storyboard */,
 				A1FBCFDC1FEE248900138E82 /* SettingsViewController.swift */,
 				564DD6D71FF49D90001F1B72 /* DrinkSelectionViewController.swift */,
-				A1FBCFDE1FEE248900138E82 /* Main.storyboard */,
-				A1FBCFE11FEE248900138E82 /* Assets.xcassets */,
-				A1FBCFE31FEE248900138E82 /* LaunchScreen.storyboard */,
-				A1FBCFE61FEE248900138E82 /* Info.plist */,
 				564DD6D51FF493C5001F1B72 /* SettingsModel.swift */,
+				A1FBCFE11FEE248900138E82 /* Assets.xcassets */,
+				A1FBCFE61FEE248900138E82 /* Info.plist */,
+				A1FBCFE31FEE248900138E82 /* LaunchScreen.storyboard */,
 				A1FBCFDA1FEE248900138E82 /* AppDelegate.swift */,
 			);
 			path = BACulator;

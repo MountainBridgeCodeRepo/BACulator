@@ -25,9 +25,6 @@ class SettingsViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    @IBAction func submitButtonWasPressed(_ sender: Any) {
-      
-    }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)
     {
