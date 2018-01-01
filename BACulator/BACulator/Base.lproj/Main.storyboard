@@ -39,13 +39,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gender" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ihd-DR-uah">
-                                <rect key="frame" x="31" y="302" width="93" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rcu-L8-Efw">
                                 <rect key="frame" x="150" y="396" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -61,7 +54,6 @@
                     </view>
                     <connections>
                         <outlet property="genderTextField" destination="BoI-J8-y0M" id="UsL-4M-c1L"/>
-                        <outlet property="label1" destination="Ihd-DR-uah" id="A4H-T5-D6h"/>
                         <outlet property="weightTextField" destination="BU0-Jy-WO5" id="a31-8E-hEz"/>
                     </connections>
                 </viewController>
@@ -94,7 +86,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SpW-nA-GZI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1631" y="112"/>
+            <point key="canvasLocation" x="773" y="127"/>
         </scene>
     </scenes>
 </document>

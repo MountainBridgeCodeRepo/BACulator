@@ -16,6 +16,7 @@ class SettingsModel{
             self.gender = gender
             self.weight = weight
         }
+        
     }
     
     func printInfo(){

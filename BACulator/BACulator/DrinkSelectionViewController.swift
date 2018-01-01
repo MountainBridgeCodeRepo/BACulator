@@ -11,11 +11,12 @@ import UIKit
 class DrinkSelectionViewController:UIViewController{
     @IBOutlet weak var weightLabel: UILabel!
     var weight: Int?
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-//        weightLabel.text = String(weight)
-        print("weight is \(weight!)")
-        // Do any additional setup after loading the view, typically from a nib.
+        //the ! unwraps weight, if you delete it and run you'll see optional 34 as the value
+        weightLabel.text = String(describing: weight!)
     }
 
 }
